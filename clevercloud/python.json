@@ -3,7 +3,7 @@
         "cache_dependancies": true
     },
     "deploy": {
-        "module": "common.wsgi:application",
+        "module": "TesteFirebase.wsgi:application",
         "managetasks": [
             "collectstatic --noinput"
         ]
